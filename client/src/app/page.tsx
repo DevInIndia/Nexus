@@ -16,7 +16,7 @@ export default function Home() {
       <h1>Users List</h1>
       <ul>
         {users.map((user: any) => (
-          <li key={user._id}>{user.name} - {user.email}</li>
+          <li key={user._id}>--{user.name} of age {user.age} - {user.email}</li>
         ))}
       </ul>
     </div>
