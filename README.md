@@ -5,7 +5,7 @@
 
 ## 🎯 Vision
 Our goal is to create a unified platform that combines:
-- ✉️ **Email Intelligence** – Prioritizing important emails and notifying users in real-time via messaging platforms.
+- ✉️ **[Email Intelligence](https://developers.google.com/workspace/gmail/api/reference/rest)** – Prioritizing important emails and notifying users in real-time via messaging platforms. 
 - ✍️ **Content Assistance** – Generating professional cold emails, LinkedIn posts, and communication templates.
 - 📂 **Career Development Tools** – Tracking resumes, analyzing skill gaps, and providing personalized industry insights.
 
