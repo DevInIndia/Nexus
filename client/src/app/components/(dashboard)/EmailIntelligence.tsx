@@ -14,7 +14,7 @@ const EmailIntelligence = () => {
                 <section>
                   <h2 className="text-2xl font-bold mb-4 text-slate-900 dark:text-white">Email Intelligence</h2>
                   <Card className="shadow-md border-indigo-100 dark:border-indigo-900 overflow-hidden">
-                    <CardHeader className="bg-gradient-to-r from-indigo-600 to-indigo-700 text-white">
+                    <CardHeader className="bg-gradient-to-r from-indigo-700 to-indigo-400 text-white">
                       <CardTitle>Smart Inbox</CardTitle>
                       <CardDescription className="text-indigo-100">Manage your emails efficiently</CardDescription>
                     </CardHeader>
@@ -38,7 +38,7 @@ const EmailIntelligence = () => {
                           <div className="space-y-4">
                             {[1, 2, 3].map((i) => (
                               <div key={i} className="flex items-start gap-4 p-4 border border-slate-200 dark:border-slate-800 rounded-xl bg-white dark:bg-slate-900 shadow-sm hover:shadow-md transition-all">
-                                <div className="h-12 w-12 rounded-full bg-indigo-100 dark:bg-indigo-900 flex items-center justify-center shrink-0 text-indigo-600 dark:text-indigo-300">
+                                <div className="h-12 w-12 rounded-full bg-indigo-100 dark:bg-indigo-900 flex items-center justify-center shrink-0 text-red-600 dark:text-indigo-300">
                                   <Mail className="h-5 w-5" />
                                 </div>
                                 <div className="space-y-2">

@@ -18,28 +18,29 @@ import Sidebar_dash from "./Sidebar_dash"
 export default function Dashboard() {
 
   return (
+    <>
     <SidebarProvider>
       <div className="flex min-h-screen bg-gradient-to-br from-indigo-50 to-slate-100 dark:from-slate-900 dark:to-indigo-950">
         <Sidebar_dash/>
         <div className="flex-1 overflow-auto">
-          <header className="py-6 px-8 border-b border-indigo-100 dark:border-indigo-900 bg-white dark:bg-slate-950">
-            <h1 className="text-2xl font-bold text-slate-900 dark:text-white">Welcome back, Shashank!</h1>
-            <p className="text-slate-500 dark:text-slate-400">Manage your career and professional content in one place</p>
+          <header className="py-6 px-8 border-b border-indigo-100 dark:border-indigo-900 bg-gradient-to-r from-indigo-700 to-purple-700 dark:bg-slate-950">
+            <h1 className="text-2xl font-bold text-white dark:text-slate-900">Welcome back, Shashank!</h1>
+            <p className="text-white dark:text-gray-500">Manage your career and professional content in one place</p>
           </header>
           
           <main className="p-8">
-            <Tabs defaultValue="email" className="w-full">
+            <Tabs defaultValue="email" className="min-w-[73.5vw]">
               <div className="mb-8">
-                <TabsList className="bg-white dark:bg-slate-900 p-1 rounded-xl shadow-sm border border-indigo-100 dark:border-indigo-900">
-                  <TabsTrigger value="email" className="rounded-lg data-[state=active]:bg-indigo-600 data-[state=active]:text-white">
+                <TabsList className="bg-white w-full dark:bg-slate-900 p-1 rounded-xl shadow-sm border border-indigo-100 dark:border-indigo-900">
+                  <TabsTrigger value="email" className="rounded-lg data-[state=active]:bg-indigo-600 data-[state=active]:text-white hover:data-[state=active]:bg-purple-600">
                     <Mail className="mr-2 h-4 w-4" />
                     Email Intelligence
                   </TabsTrigger>
-                  <TabsTrigger value="content" className="rounded-lg data-[state=active]:bg-indigo-600 data-[state=active]:text-white">
+                  <TabsTrigger value="content" className="rounded-lg data-[state=active]:bg-indigo-600 data-[state=active]:text-white hover:data-[state=active]:bg-purple-600">
                     <MessageSquare className="mr-2 h-4 w-4" />
                     Content Assistance
                   </TabsTrigger>
-                  <TabsTrigger value="career" className="rounded-lg data-[state=active]:bg-indigo-600 data-[state=active]:text-white">
+                  <TabsTrigger value="career" className="rounded-lg data-[state=active]:bg-indigo-600 data-[state=active]:text-white hover:data-[state=active]:bg-purple-600">
                     <Briefcase className="mr-2 h-4 w-4" />
                     Career Development
                   </TabsTrigger>
@@ -58,5 +59,6 @@ export default function Dashboard() {
         </div>
       </div>
     </SidebarProvider>
+    </>
   )
 }

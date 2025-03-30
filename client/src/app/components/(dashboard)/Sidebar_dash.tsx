@@ -65,8 +65,8 @@ const Sidebar_dash = () => {
                 <span className="text-sm font-bold">JD</span>
               </div>
               <div>
-                <p className="text-sm font-semibold text-slate-800 dark:text-slate-200">John Doe</p>
-                <p className="text-xs text-slate-500 dark:text-slate-400">john@example.com</p>
+                <p className="text-sm font-semibold text-slate-800 dark:text-slate-200">Shashank</p>
+                <p className="text-xs text-slate-500 dark:text-slate-400">Shashank@example.com</p>
               </div>
               <Button variant="ghost" size="icon" className="ml-auto rounded-full h-8 w-8">
                 <ChevronRight className="h-4 w-4" />
