@@ -5,7 +5,7 @@
 
 ## 🎯 Vision
 Our goal is to create a unified platform that combines:
-- ✉️ **[Email Intelligence](https://developers.google.com/workspace/gmail/api/reference/rest)** – Prioritizing important emails and notifying users in real-time via messaging platforms. 
+- ✉️ **Email Intelligence** – Prioritizing important emails and notifying users in real-time via messaging platforms. 
 - ✍️ **Content Assistance** – Generating professional cold emails, LinkedIn posts, and communication templates.
 - 📂 **Career Development Tools** – Tracking resumes, analyzing skill gaps, and providing personalized industry insights.
 
@@ -15,10 +15,10 @@ Our goal is to create a unified platform that combines:
 - 📊 **Resume & Skill Analysis**
 
 ## 🛠️ Technical Stack
-- 🎨 **Frontend:** React + TypeScript
-- ⚙️ **Backend:** Node.js
-- 🗄️ **Database:** MongoDB
-- 🔗 **Integrations:** Gmail API, LinkedIn API, messaging platforms (WhatsApp/Telegram), AI-based recommendations
+- 🎨 **Frontend:** [Next.js](\https://nextjs.org/)
+- ⚙️ **Backend:** [Node.js](https://nodejs.org/en)
+- 🗄️ **Database:** [MongoDB](https://www.mongodb.com/)
+- 🔗 **Integrations:** [Gmail API](https://developers.google.com/workspace/gmail/api/reference/rest), [LinkedIn API](https://learn.microsoft.com/en-us/linkedin/consumer/integrations/self-serve/share-on-linkedin), messaging platforms (WhatsApp/[Telegram](https://core.telegram.org/#bot-api)), AI-based recommendations
 
 ## 🚀 Future Plans
 - 🖥️ **Desktop Companion App** for background notifications and offline capabilities.
