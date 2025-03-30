@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import { Inbox,Layers,Settings,Briefcase,ChevronRight } from 'lucide-react'
+import Image from 'next/image';
 import {
     Sidebar,
     SidebarContent,
@@ -16,7 +17,7 @@ const Sidebar_dash = () => {
   return (
     <Sidebar className="border-r border-indigo-100 dark:border-indigo-900 bg-white dark:bg-slate-950">
           <SidebarHeader className="flex h-16 items-center border-b px-6 bg-indigo-50 dark:bg-indigo-950">
-            <h1 className="text-xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">NEXUS</h1>
+            <h1 className="text-xl flex items-center font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent"><Image src="/favicon.png" alt="Logo" width={32} height={32} /> NEXUS PULSE</h1>
           </SidebarHeader>
           <SidebarContent>
             <div className="px-3 py-4">
