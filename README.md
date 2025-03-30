@@ -1,5 +1,6 @@
 # 🚀 Nexus Pulse
 <img src="https://github.com/user-attachments/assets/2f819f5e-bc34-4d52-a942-d2f67a34adb1" width="400" />
+
 **Nexus Pulse** is an AI-powered professional assistant designed to enhance productivity, streamline communication, and support career development. By integrating **smart email filtering**, **content generation**, and **career tracking**, Nexus Pulse empowers technology professionals to stay ahead in their industry. 🌟
 
 ## 🎯 Vision
