@@ -15,7 +15,7 @@ Our goal is to create a unified platform that combines:
 - 📊 **Resume & Skill Analysis**
 
 ## 🛠️ Technical Stack
-- 🎨 **Frontend:** [Next.js](\https://nextjs.org/)
+- 🎨 **Frontend:** [Next.js](https://nextjs.org/)
 - ⚙️ **Backend:** [Node.js](https://nodejs.org/en)
 - 🗄️ **Database:** [MongoDB](https://www.mongodb.com/)
 - 🔗 **Integrations:** [Gmail API](https://developers.google.com/workspace/gmail/api/reference/rest), [LinkedIn API](https://learn.microsoft.com/en-us/linkedin/consumer/integrations/self-serve/share-on-linkedin), messaging platforms (WhatsApp/[Telegram](https://core.telegram.org/#bot-api)), AI-based recommendations
