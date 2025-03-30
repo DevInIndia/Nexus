@@ -20,7 +20,7 @@ const ContentAssistance = () => {
                   <h2 className="text-2xl font-bold mb-4 text-slate-900 dark:text-white">Content Assistance</h2>
                   <div className="grid md:grid-cols-2 gap-6">
                     <Card className="shadow-md border-indigo-100 dark:border-indigo-900 overflow-hidden">
-                      <CardHeader className="bg-gradient-to-r from-indigo-600 to-indigo-700 text-white">
+                      <CardHeader className="bg-gradient-to-r  from-indigo-700 to-indigo-400 text-white">
                         <CardTitle>Cold Email Generator</CardTitle>
                         <CardDescription className="text-indigo-100">Create personalized cold emails</CardDescription>
                       </CardHeader>
@@ -61,7 +61,7 @@ const ContentAssistance = () => {
                     </Card>
 
                     <Card className="shadow-md border-indigo-100 dark:border-indigo-900 overflow-hidden">
-                      <CardHeader className="bg-gradient-to-r from-indigo-600 to-indigo-700 text-white">
+                      <CardHeader className="bg-gradient-to-r  from-indigo-700 to-indigo-400 text-white">
                         <CardTitle>LinkedIn Post Suggestions</CardTitle>
                         <CardDescription className="text-indigo-100">Get content ideas for your professional network</CardDescription>
                       </CardHeader>
