@@ -1,6 +1,6 @@
 "use client"; // Required for fetching in Next.js App Router
 import { useEffect, useState } from "react";
-
+import Dashboard from "./components/(dashboard)/dashboard";
 export default function Home() {
   const [users, setUsers] = useState([]);
 
@@ -12,13 +12,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
-      <h1>Users List</h1>
-      <ul>
-        {users.map((user: any) => (
-          <li key={user._id}>--{user.name} of age {user.age} - {user.email}</li>
-        ))}
-      </ul>
-    </div>
+        <Dashboard />
+      
   );
 }
