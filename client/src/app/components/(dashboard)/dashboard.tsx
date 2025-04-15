@@ -29,18 +29,18 @@ export default function Dashboard() {
           </header>
           
           <main className="p-8">
-            <Tabs defaultValue="email" className="min-w-[73.5vw]">
+            <Tabs defaultValue="email" className="min-w-[73.5vw] ">
               <div className="mb-8">
                 <TabsList className="bg-white w-full dark:bg-slate-900 p-1 rounded-xl shadow-sm border border-indigo-100 dark:border-indigo-900">
-                  <TabsTrigger value="email" className="rounded-lg data-[state=active]:bg-indigo-600 data-[state=active]:text-white hover:data-[state=active]:bg-purple-600">
+                  <TabsTrigger value="email" className="rounded-lg data-[state=active]:bg-indigo-600 data-[state=active]:text-white hover:bg-purple-400 hover:text-white">
                     <Mail className="mr-2 h-4 w-4" />
                     Email Intelligence
                   </TabsTrigger>
-                  <TabsTrigger value="content" className="rounded-lg data-[state=active]:bg-indigo-600 data-[state=active]:text-white hover:data-[state=active]:bg-purple-600">
+                  <TabsTrigger value="content" className="rounded-lg data-[state=active]:bg-indigo-600 data-[state=active]:text-white hover:bg-purple-400 hover:text-white">
                     <MessageSquare className="mr-2 h-4 w-4" />
                     Content Assistance
                   </TabsTrigger>
-                  <TabsTrigger value="career" className="rounded-lg data-[state=active]:bg-indigo-600 data-[state=active]:text-white hover:data-[state=active]:bg-purple-600">
+                  <TabsTrigger value="career" className="rounded-lg data-[state=active]:bg-indigo-600 data-[state=active]:text-white hover:bg-purple-400 hover:text-white">
                     <Briefcase className="mr-2 h-4 w-4" />
                     Career Development
                   </TabsTrigger>
